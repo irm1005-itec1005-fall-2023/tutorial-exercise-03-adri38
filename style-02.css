@@ -7,9 +7,25 @@
 
 /* Styles for the HTML Body element */
 body {
+  background-color: #1d3557ff;
   /* 1. Add a background colour of #1d3557ff */
 }
 
+main .blue-box {
+  box-sizing: content-box;
+  width: 600px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 5rem;
+  background-color: #a8dadcff;
+  color: #1d3557ff;
+  border-radius: 2rem;
+  border: solid;
+  border-color: #e63946ff;
+ 
+}
 /*
 
 Create a class called blue-box and add the following styles to it
@@ -33,7 +49,21 @@ Create a class called blue-box and add the following styles to it
 
 */
 
-
+main .blue-box-box-sizing {
+  box-sizing: border-box;
+  width: 700px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 0px;
+  padding: 50px;
+  background-color: #a8dadcff;
+  color: #1d3557ff;
+  border-radius: 2rem;
+  border: solid;
+  border-width: 1rem;
+  border-color: #e63946ff;
+}
 
 /*
 
